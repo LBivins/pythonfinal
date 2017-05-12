@@ -7,7 +7,7 @@ def gen_numbers():
         It will then prompt the user to guess what the product of those numbers is."""
     x = random.randint(1, 100)
     y = random.randint(1, 100)
-    z = x * y
+    z = x + y
     user_guess = 0
 
     while user_guess != z:
